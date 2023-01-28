@@ -1,17 +1,10 @@
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: rgba(244, 242, 239, 0.9);
 }
 
 h1, h2, h3 {
-  font-family: "Lobster", cursive;
-}
-
-h2 {
-  color: #312020;
-}
-
-header h2 {
-  color: #CEC8FF;
+  font-family: impact;
 }
 
 a, a:hover {
@@ -20,14 +13,15 @@ a, a:hover {
 }
 
 .site-footer {
-  background-image: linear-gradient(#CEC8FF, white);
+  background: rgb(173, 25, 25);
   padding: 20px 0;
 }
 
 .jumbotron {
   padding: 30px;
+  padding-bottom: 1px;
   margin: 0;
-  background-image: linear-gradient(to right, #b73232, #312020, #247edf);
+  background: rgb(173, 25, 25);
   color: white;
 }
 
@@ -35,10 +29,6 @@ a, a:hover {
   padding: 50px 0;
   border-bottom: 1px ridge;
   min-height: 200px;
-}
-
-.navbar {
-  background-color: #901CAD;
 }
 
 .tab-content {
@@ -52,7 +42,7 @@ a, a:hover {
 }
 
 .carousel {
-  border: solid #b73232;
+  border: solid rgb(173, 25, 25);
 }
 
 #carouselButton {
@@ -70,6 +60,28 @@ a, a:hover {
 #loginModal .modal-header {
   background: #901CAD;
   color: white;
+}
+
+#firstTitle {
+  padding-top: 20px;
+}
+
+#accordion {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#getQuote {
+  padding-top: 12px;
+}
+
+#aboutTeam {
+  text-align: center;
+}
+
+.homeAir img {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

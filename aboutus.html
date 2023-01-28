@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <!-- endbuild -->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
     
     <title>NuCamp: A Better Way To Camp</title>
 </head>
@@ -23,58 +21,53 @@
     <header class="jumbotron jumbotron-fluid">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-3 col-md-2 align-self-center">
-                    <a href="index.html"><img src="img/logo.png" class="img-fluid" /></a>
-                </div>
                 <div class="col">
-                    <h1>NuCamp</h1>
-                    <h2>a better way to camp</h2>
+                    <h1>Five Seasons HVAC</h1>
                 </div>
-            </div> 
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info fa-lg"></i> About</a></li>            
-                    <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-list fa-lg"></i> Services</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-address-card fa-lg"></i> Contact</a></li>
-                </ul>
+                <a role="button" class="col-3 btn btn-secondary btn-lg text-nonwrap" href="contactus.html" id="getQuote">Get a Quote</a>
             </div>
         </div>
-    </nav>
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="nucampNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-info-circle fa-lg"></i> About</a></li>            
+                        <li class="nav-item"><a class="nav-link" href="services.html"><i class="fa fa-wrench  fa-lg"></i> Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contactus.html"><i class="fa fa-pencil-square fa-lg"></i> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <div class="container">
-        <div class="row">
+        <div class="row" id="firstTitle">
             <div class="col">
-                <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active">About</li>
-                </ol>
                <h2>About Us</h2>
                <hr />
             </div>
         </div>
 
         <div class="row row-content">
-            <div class="col-sm-6">
+            <div class="col-sm-7">
                 <h3>Our Mission</h3>
-                <p>We present a curated database of the best campsites in the vast woods and backcountry of the World Wide Web Wilderness. We increase access to adventure for the public while promoting safe and respectful use of resources. The expert wilderness trekkers on our staff personally verify each campsite to make sure that they are up to our standards. We also present a platform for campers to share reviews on campsites they have visited with each other.</p>
+                <p>As a small family owned business we take pride in treating our customers like family.</p>
             </div>
-            <div class="col-sm-6">
-                <img class="d-flex ml-3 img-thumbnail" src="img/vans.jpeg" alt="5 Seasons Vans" />
+            <div class="media col-5">
+                <img class="d-flex ml-3 img-thumbnail" id="van" src="img/vans.jpeg" alt="5 Seasons Vans" />
             </div>
         </div>
 
         <div class="row row-content">
-            <div class="col">
-                <h3>Community Partners</h3>
+            <div class="col" id="aboutTeam">
+                <h3>The Team</h3>
+                <p>The founder of 5 Seaons brings with him almost 30 years of experience. 
+                    This expands to sales, parts, residential, and commerical. He saw a need to provide trust-worthy and quality work. 
+                    Where relationships are built for long term and not just a one time transaction.</p>
             </div>
         </div>
     </div>
@@ -82,25 +75,35 @@
     <footer class="site-footer">
         <div class="container">
             <div class="row">
-                <div class="col-4 col-sm-2 offset-1">
+                <div class="col-3 col-sm-2">
+                    <h5>Serviced Areas</h5>
+                    <ul class="list-unstyled">
+                        <li>Indianapolis</li>
+                        <li>Brownsburg</li>
+                        <li>Carmel</li>
+                        <li>Lawrence</li>
+                        <li>Greenwood</li>
+                    </ul>
+                </div>
+                <div class="col-3 col-sm-2">
                     <h5>Links</h5>
                     <ul class="list-unstyled">
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="#">About</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="services.html">Services</a></li>
-                        <li><a href="contactus.html">Contact</a></li>
+                        <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-6 col-sm-5 text-center">
-                    <h5>Social</h5>
+                <div class="col-3 text-center">
+                    <h5>Connect with us via Social</h5>
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
                     <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
                     <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
                     <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
                 </div>
-                <div class="col-sm-4 text-center">
-                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 1-206-555-1234</a><br />
-                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> campsites@nucamp.co</a>
+                <div class="col-3 text-center offset-1">
+                    <a role="button" class="btn btn-link" href="tel:+12065551234"><i class="fa fa-phone"></i> 317.709.7373</a><br />
+                    <a role="button" class="btn btn-link" href="mailto:campsites@nucamp.co"><i class="fa fa-envelope-o"></i> 5seasonshvac@gmail.com</a>
                 </div>
            </div>
         </div>

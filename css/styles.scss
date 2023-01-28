@@ -1,5 +1,5 @@
 $color-primary: #312020;
-$color-secondary: #b73232;
+$color-secondary: rgb(173, 25, 25);
 $color-pale: #CEC8FF;
 $color-mid: #901CAD;
 $color-dark: #247edf;
@@ -7,24 +7,14 @@ $color-black-transparent: rgba(0, 0, 0, 0.5);
 $color-teal: #17A2B8;
 
 $body-font: "Open Sans", sans-serif;
-$header-font: "Lobster", cursive;
 
 body {
     font-family: $body-font;
+    background-color: rgba(244,242,239,0.9);
 }
 
 h1, h2, h3 {
-    font-family: $header-font;
-}
-
-h2 {
-    color: $color-primary;
-}
-
-header {
-    h2 {
-        color: $color-pale;
-    }
+    font-family: impact;
 }
 
 a, a:hover {
@@ -33,14 +23,15 @@ a, a:hover {
   }
 
 .site-footer {
-    background-image: linear-gradient($color-pale, white);
+    background: $color-secondary;
     padding: 20px 0;
 }
 
 .jumbotron {
     padding: 30px;
+    padding-bottom: 1px;
     margin: 0;
-    background-image: linear-gradient(to right, $color-secondary, $color-primary, $color-dark);
+    background: $color-secondary;
     color: white;
 }
 
@@ -48,10 +39,6 @@ a, a:hover {
     padding: 50px 0;
     border-bottom: 1px ridge;
     min-height: 200px;
-}
-
-.navbar {
-    background-color: $color-mid;
 }
 
 .tab-content {
@@ -86,5 +73,29 @@ a, a:hover {
     .modal-header {
         background: $color-mid;
         color: white;
+    }
+}
+
+#firstTitle {
+    padding-top: 20px;
+}
+
+#accordion {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+#getQuote {
+    padding-top: 12px;
+}
+
+#aboutTeam {
+    text-align: center;
+}
+
+.homeAir {
+    img {
+        width:100%;
+        height:100%;
     }
 }
